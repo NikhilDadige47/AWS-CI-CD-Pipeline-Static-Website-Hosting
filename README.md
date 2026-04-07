@@ -44,37 +44,9 @@ The architecture follows a simple yet robust CI/CD pipeline pattern using native
 
 ### High-Level Architecture Diagram
 
-```mermaid
-flowchart LR
-    GitHub[GitHub Repository\nindex.html at root] 
-    -->|git push to main| 
-    CodeStar[AWS CodeStar Connections\nSecure GitHub Connection]
+<img width="2816" height="1536" alt="Gemini_Generated_Image_mtpvdomtpvdomtpv" src="https://github.com/user-attachments/assets/a359a2bd-7169-4a7a-9666-9bc0b93b59d3" />
 
-    CodeStar 
-    -->|Webhooks Trigger| 
-    CodePipeline[AWS CodePipeline V2\nSource → Deploy]
 
-    CodePipeline 
-    -->|Pull Source Code| 
-    ArtifactS3[Private S3 Artifact Bucket\nyourname-pipeline-artifacts\nLifecycle: Expire after 1 day]
-
-    CodePipeline 
-    -->|Extract & Deploy| 
-    WebsiteS3[Public S3 Website Bucket\nyourname-static-site-prod\nStatic Website Hosting Enabled]
-
-    WebsiteS3 
-    -->|Serve Static Content| 
-    Internet[Live Website\nhttp://yourname-static-site-prod.s3-website-us-east-1.amazonaws.com]
-
-    subgraph IAM Security
-        CodePipeline -->|Assumes| IAMRole[Least-Privilege IAM Role\nstatic-site-codepipeline-role]
-    end
-
-    style GitHub fill:#181717,color:#fff
-    style CodePipeline fill:#FF9900,color:#fff
-    style WebsiteS3 fill:#FF9900,color:#fff
-    style ArtifactS3 fill:#232F3E,color:#fff
-```
 
 **Key Technical Decisions:**
 - **AWS CodePipeline** chosen for native AWS integration and full visibility
