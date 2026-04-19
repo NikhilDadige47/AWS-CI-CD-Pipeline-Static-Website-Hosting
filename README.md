@@ -9,7 +9,7 @@ Nikhil Dadige
 April 2026
 
 **Live Demo**  
-[https://teams.live.com/l/message/19:uni01_lohxd2mttmyhqc4vcz63vrcbrbtelji55byt7wcskxhzqndqauia@thread.v2/1775553817122?context=%7B%22contextType%22%3A%22chat%22%7D]([http://yourname-static-site-prod.s3-website-us-east-1.amazonaws.com](https://teams.live.com/l/message/19:uni01_lohxd2mttmyhqc4vcz63vrcbrbtelji55byt7wcskxhzqndqauia@thread.v2/1775553817122?context=%7B%22contextType%22%3A%22chat%22%7D))
+[http://nikhil-static-site-prod.s3-website-us-east-1.amazonaws.com/#contact]([http://nikhil-static-site-prod.s3-website-us-east-1.amazonaws.com/#contact))
 
 **GitHub Repository**  
 [https://github.com/NikhilDadige47/AWS-CI-CD-Pipeline-Static-Website-Hosting]([https://github.com/yourusername/your-repo-name](https://github.com/NikhilDadige47/AWS-CI-CD-Pipeline-Static-Website-Hosting))
