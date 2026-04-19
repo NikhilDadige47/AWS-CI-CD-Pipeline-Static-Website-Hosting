@@ -3,7 +3,6 @@ AWS-CI-CD-Pipeline-Static-Website-Hosting
 
 **Author**  
 Nikhil Dadige  
-[Your LinkedIn / Portfolio Link]
 
 **Date**  
 April 2026
